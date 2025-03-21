@@ -240,12 +240,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // 🔹 Download counter logic
-let downloadCount = localStorage.getItem("downloadCount") ? parseInt(localStorage.getItem("downloadCount")) : 100;
+let downloadCount = localStorage.getItem("downloadCount") ? parseInt(localStorage.getItem("downloadCount")) : 999;
 
 function updateDownloadCount() {
     const counterElement = document.getElementById("downloadCounter");
     if (counterElement) {
-        counterElement.innerHTML = `Access Source Code Used by {${downloadCount}} Developers.`;
+        counterElement.innerHTML = `Access Source Code Used by {${downloadCount}+} Developers.`;
     }
 }
 
