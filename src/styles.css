@@ -45,7 +45,7 @@ body {
 /* 🔹 Project Gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
     justify-content: center;
     padding: 20px;    
@@ -55,6 +55,7 @@ body {
 .gallery-card {
     background: #ecf0f3;
     padding: 15px;
+    margin:10px;
     border-radius: 12px;
     box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
     text-align: center;
